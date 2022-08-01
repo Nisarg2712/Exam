@@ -1,0 +1,23 @@
+{
+    "BtnDark": {
+        "screenshot": ".images\\btndark-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "tag",
+        "type": "browser",
+        "value": ".btn-dark"
+    },
+    "Button": {
+        "screenshot": ".images\\button-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "css",
+        "type": "browser",
+        "value": ".btn-dark"
+    },
+    "Input": {
+        "screenshot": ".images\\input-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'3. Legs:')]/../input"
+    }
+}

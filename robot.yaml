@@ -1,0 +1,11 @@
+tasks:
+  Insert the sales data for the week and export it as a PDF:
+    robotTaskName: Insert the sales data for the week and export it as a PDF
+condaConfigFile: conda.yaml
+ignoreFiles:
+- .gitignore
+artifactsDir: output
+PATH:
+- .
+PYTHONPATH:
+- .
